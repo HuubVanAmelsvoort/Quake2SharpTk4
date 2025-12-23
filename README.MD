@@ -1,11 +1,11 @@
-# Quake2Sharp
+# Quake2SharpTk4
 An ID Tech 2 Engine modernization project.
 
 ## Compiling / Running
 
 Method 1 - Release build:
-- Make sure the Quake2Sharp files are next to your baseq2 directory.
-- Run
+ 
+- Run with args +set basedir "<quake2dir>" below , where <quake2dir> is the path to your Quake 2 installation (the directory that contains baseq2)
 
 Method 2 - Building from source:
 - Install latest .NET SDK
@@ -15,8 +15,8 @@ Method 2 - Building from source:
 - Follow method 1
 
 Method 3 - Running from IDE:
-- Install latest .NET SDK
-- Make sure the baseq2 directory lies in the project root directory.
+- Install latest .NET SDK (9.0)
+- args +set basedir "<quake2dir>" below , where <quake2dir> is the path to your Quake 2 installation (the directory that contains baseq2)
 - Open the solution file and run
 
 ## Goals
@@ -77,3 +77,4 @@ Method 3 - Running from IDE:
 ## Credits
 - ID Software for releasing their Quake 2 source code https://github.com/id-Software/Quake-2
 - Bytonic for their Java port https://bytonic.de/html/jake2.html
+- IceReaper for his Quake2Sharp project

@@ -2,7 +2,6 @@
   "profiles": {
     "Quake2Sharp": {
       "commandName": "Project",
-      "commandLineArgs": "+set basedir \"D:\\werkdirectory\\SpelData\\Quake2\" +set developer true",
       "workingDirectory": "$(SolutionDir)"
     },
     "Quake2Sharp - Rogue": {
