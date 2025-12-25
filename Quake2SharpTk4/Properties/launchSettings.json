@@ -2,6 +2,7 @@
   "profiles": {
     "Quake2Sharp": {
       "commandName": "Project",
+      "commandLineArgs": "+set basedir \"\\\"D:/Programmas/Steam/steamapps/common/Quake 2\\\"\"",
       "workingDirectory": "$(SolutionDir)"
     },
     "Quake2Sharp - Rogue": {
